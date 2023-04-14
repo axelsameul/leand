@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+   background:linear-gradient(#392929,#6c4848);
+    justify-content: space-between;
+   
+
+  
+}
+.body{
+    background:linear-gradient(#322c2c, #534a4a);
+}
+
+
+.class-hola ul {
+    display: flex;
+    color: aliceblue;
+    align-items: center;
+}
+.class-hola li{
+    list-style: none;
+    margin: 10px;
+   
+}
+.class-button{
+    margin-right: 30px;
+    align-items: center;
+}
+.class-button a{
+    text-decoration: none;
+    color: aliceblue;
+    align-items: center;
+
+}
+.footer {
+    background: linear-gradient(#aaaa,#b81515);
+    justify-content: space-evenly;
+}
+img {
+    transition: transform 0.3s ease-in-out;
+  }
+  img:hover {
+    transform: scale(1.2);
+  }
+   
+
